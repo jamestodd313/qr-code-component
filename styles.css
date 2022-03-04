@@ -18,6 +18,13 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .qr-container {
+    margin: auto;
+    max-width: 20rem;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.05);
+  }
+}
 .qr-code {
   width: 100%;
   display: block;
@@ -25,13 +32,18 @@ body {
 .qr-text {
   padding: 16px;
 }
+@media screen and (min-width: 768px) {
+  .qr-text {
+    padding: 16px 8px 24px;
+  }
+}
 .title,
 .copy {
   display: block;
 }
 .qr-code,
 .qr-container {
-  border-radius: 8px;
+  border-radius: 1rem;
 }
 .title {
   font-size: 1.4rem;
@@ -39,7 +51,17 @@ body {
   margin: 16px 0;
   color: #0b213f;
 }
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 1.25rem;
+  }
+}
 .copy {
   font-size: 1rem;
-  color: #808791;
+  color: #919599;
+}
+@media screen and (min-width: 768px) {
+  .copy {
+    font-size: 0.95rem;
+  }
 }
