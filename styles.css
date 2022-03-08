@@ -8,6 +8,7 @@ body {
   display: grid;
   place-content: center;
   background-color: #ccdbf0;
+  font-family: "Fredoka", sans-serif;
 }
 
 /* component styles */
@@ -46,6 +47,8 @@ body {
   border-radius: 1rem;
 }
 .title {
+  font-family: "League Spartan", sans-serif;
+  line-height: 1.5rem;
   font-size: 1.4rem;
   font-weight: 900;
   margin: 16px 0;
